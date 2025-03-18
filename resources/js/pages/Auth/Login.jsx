@@ -49,7 +49,7 @@ const Login = ({ notify }) => {
 
       <form onSubmit={submit}>
         <ContainerBox shadow="md" p={30} mt={30} radius="md">
-          <Group grow mb="md" mt="md">
+          {/* <Group grow mb="md" mt="md">
             <Button
               leftSection={<GoogleIcon />}
               variant="default"
@@ -61,7 +61,7 @@ const Login = ({ notify }) => {
             >
               Google
             </Button>
-          </Group>
+          </Group> */}
 
           <Divider label="Or continue with email" labelPosition="center" my="lg" />
 
