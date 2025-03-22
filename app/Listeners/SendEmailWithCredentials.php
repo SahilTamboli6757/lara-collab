@@ -12,8 +12,8 @@ class SendEmailWithCredentials
      */
     public function handle(UserCreatedEvent $event): void
     {
-        $event->user->notify(
-            new UserCreatedNotification($event->password)
-        );
+        // $event->user->notify(
+        //     new UserCreatedNotification($event->password)
+        // );
     }
 }
